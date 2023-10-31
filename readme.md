@@ -1,5 +1,7 @@
 # cognizantblockchain
-**cognizantblockchain** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
+**cognizantblockchain** is a DeFi blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli). 
+
+Currently, We have developed two modules: Loan and Bank. The NFT module is in progress.
 
 ## Get started
 
@@ -15,7 +17,7 @@ Our blockchain in development can be configured with `config.yml`. To learn more
 
 ### Web Frontend
 
-I have scaffolded a React.js-based web app in the `react` directory. Run the following commands to install dependencies and start the app:
+We have scaffolded a React.js-based web app in the `react` directory. Run the following commands to install dependencies and start the app:
 
 ```
 cd react
