@@ -3,19 +3,27 @@ accounts:
 - name: alice
   coins:
   - 20000token
+  - 10000foocoin
   - 200000000stake
 - name: bob
   coins:
   - 10000token
   - 100000000stake
-client:
-  openapi:
-    path: docs/static/openapi.yml
+- name: bktest
+  coins: ["1000token", "100000000stake"]
+  mnemonic: word kiwi three rookie prison unable rigid cloud lab chat pigeon zebra  
 faucet:
   name: bob
   coins:
   - 5token
   - 100000stake
+client:
+  typescript:
+    path: ts-client
+  hooks:
+    path: react/src/hooks
+  openapi:
+    path: docs/static/openapi.yml
 validators:
 - name: alice
   bonded: 100000000stake

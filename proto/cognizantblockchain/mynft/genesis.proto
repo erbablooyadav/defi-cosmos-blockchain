@@ -1,0 +1,12 @@
+syntax = "proto3";
+package cognizantblockchain.mynft;
+
+import "gogoproto/gogo.proto";
+import "cognizantblockchain/mynft/params.proto";
+
+option go_package = "cognizant-blockchain/x/mynft/types";
+
+// GenesisState defines the mynft module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
